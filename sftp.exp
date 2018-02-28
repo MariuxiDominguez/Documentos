@@ -1,0 +1,100 @@
+
+#spawn $env(SHELL)
+match_max 100000
+
+set hostname [lindex $argv 0]
+set user_hostname [lindex $argv 1]
+set pass_hostname [lindex $argv 2]
+set ruta_temp [lindex $argv 3]
+set ruta_remota [lindex $argv 4]
+set comando [lindex $argv 5]
+set timeout -1
+set file_log [lindex $argv 6]
+
+#log_file  "$file_log"
+
+# connect to server via ssh, login, and su to root
+
+send_user "Connecting to $hostname...\n"
+
+#spawn ssh $hostname -l $user_hostname
+send_log --  "Inicia conexion remota...\n"
+spawn sftp $user_hostname@$hostname
+
+expect {
+
+  "# " { }
+
+  "$ " { }
+
+  # Autenticacion directa
+
+  "assword: " { 
+        send "$pass_hostname\n"
+  }
+
+  # Confirmacion de credenciales previo a la autenticacion
+
+  "(yes/no)? " { 
+
+        send "yes\n"
+
+        expect {
+
+          "# " { }
+
+          "$ " { }
+
+          # Autemticacion post confirmacion de credenciales 
+
+          "assword: " {
+               send "$pass_hostname\n"
+          }
+        }     
+
+ 
+  }
+
+  default {
+       send_user "Login failed\n"
+       exit
+  }
+
+
+}
+
+expect {
+       "sftp> " {
+	   send -- "lcd $ruta_temp\r"
+       }
+}
+
+expect {
+       "sftp> " {
+	    send -- "cd $ruta_remota\r"
+       }
+}
+
+expect {
+       "sftp> " {
+	    send -- "$comando\r"
+       }
+}
+
+expect {
+       "sftp> " {
+            send -- "bye\r"
+       }
+}
+
+expect {
+       "$ " {
+            send -- "exit\r"
+       }
+       "# " {
+            send -- "exit\r"
+       }
+}
+
+
+send_log --  "Fin conexion remota."
