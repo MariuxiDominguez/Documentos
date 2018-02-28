@@ -1,0 +1,137 @@
+PL/SQL V1 Conversion Summary - Form: BANF2016
+
+POST-CHANGE (DETALLE.CODIGOCOMPANIA)
+  ERROR 201 at line 4, column 11
+    identifier 'CMPN' must be declared
+
+KEY-PREV-ITEM (DETALLE.CODIGOCOMPANIA)
+
+ONXVALIDATEXFIELD (DETALLE.CODIGOCOMPANIA)
+  ERROR 201 at line 2, column 43
+    identifier 'OPS$CONTAB.CMPN' must be declared
+  ERROR 320 at line 2, column 34
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 902 at line 20, column 2
+    A READ-ONLY bind variable used in OUT or IN-OUT context
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 20
+
+ONXVALIDATEXFIELD (DETALLE.FACTURA)
+
+POST-CHANGE (DETALLE.FLUJOCAJA)
+  ERROR 201 at line 4, column 11
+    identifier 'FLUJOSCAJA' must be declared
+
+ONXVALIDATEXFIELD (DETALLE.FECHA)
+
+POST-CHANGE (DETALLE.TIPO)
+  ERROR 201 at line 4, column 11
+    identifier 'FORMASRECUPERACION' must be declared
+
+POST-CHANGE (DETALLE.BANCODEPOSITO)
+  ERROR 201 at line 4, column 11
+    identifier 'BANCOS' must be declared
+
+POST-CHANGE (DETALLE.CUENTABANCARIA)
+  ERROR 201 at line 4, column 11
+    identifier 'CUENTASBANCARIAS' must be declared
+
+POST-CHANGE (DETALLE.FORMAPAGO)
+  ERROR 201 at line 4, column 11
+    identifier 'FORMASPAGO' must be declared
+
+ONXVALIDATEXFIELD (DETALLE.FORMAPAGO)
+  ERROR 201 at line 2, column 43
+    identifier 'OPS$BANCOS.FORMASPAGO' must be declared
+  ERROR 320 at line 2, column 34
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 902 at line 20, column 2
+    A READ-ONLY bind variable used in OUT or IN-OUT context
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 20
+
+POST-CHANGE (DETALLE.CODIGOBANCO)
+  ERROR 201 at line 4, column 11
+    identifier 'BANCOS' must be declared
+
+ONXVALIDATEXFIELD (DETALLE.CODIGOBANCO)
+  ERROR 201 at line 2, column 43
+    identifier 'OPS$ROL.BANCOS' must be declared
+  ERROR 320 at line 2, column 34
+    the declaration of the type of this expression is incomplete or malformed
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 20
+
+POST-CHANGE (DETALLE.VALOR)
+  ERROR 201 at line 4, column 10
+    identifier 'FACTURACION' must be declared
+
+KEY-NEXT-ITEM (DETALLE.VALOR)
+
+KEY-PREV-ITEM (DETALLE.VALOR)
+
+KEY-NEXT-ITEM (DETALLE.CAMBIO)
+
+ONXVALIDATEXFIELD (DETALLE.STATUS)
+
+KEY-CLRFRM (DETALLE)
+
+KEY-CLRREC (DETALLE)
+
+KEY-CQUERY (DETALLE)
+
+KEY-DOWN (DETALLE)
+
+KEY-ENTQRY (DETALLE)
+
+KEY-EXEQRY (DETALLE)
+
+KEY-EXIT (DETALLE)
+
+KEY-LISTVAL (DETALLE)
+
+KEY-NXTREC (DETALLE)
+
+KEY-OTHERS (DETALLE)
+
+KEY-PRINT (DETALLE)
+
+KEY-PRVREC (DETALLE)
+
+KEY-UP (DETALLE)
+
+CONTROL* (Procedure Body)
+  ERROR 201 at line 5, column 10
+    identifier 'FACTURACION' must be declared
+
+ON-MESSAGE (Form)
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 11
+
+KEY-EXIT (Form)
+  ERROR 201 at line 7, column 14
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 17, column 14
+    identifier 'FACTURACION' must be declared
+
+WHEN-NEW-FORM-INSTANCE (Form)
+  ERROR 201 at line 4, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 6, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 8, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 10, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 12, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 14, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 16, column 14
+    identifier 'MASCARA' must be declared
+
+WHEN-TIMER-EXPIRED (Form)
+
+WHEN-MOUSE-ENTER (Form)
+
+PRE-FORM (Form)
+
+WHEN-NEW-ITEM-INSTANCE (TOOLBAR.DUMMY)
+
+WHEN-BUTTON-PRESSED (TOOLBAR)

@@ -1,0 +1,500 @@
+PL/SQL V1 Conversion Summary - Form: BANF2013
+
+HINT (Package Spec)
+
+KEY-OTHERS (TITULO)
+
+KEY-NEXT-ITEM (VOUCHER.CODIGOCOMPANIA)
+  ERROR 201 at line 8, column 54
+    identifier 'DUAL' must be declared
+  ERROR 201 at line 12, column 11
+    identifier 'CMPN' must be declared
+
+POST-CHANGE (VOUCHER.CODIGOCOMPANIA)
+
+KEY-PREV-ITEM (VOUCHER.CODIGOCOMPANIA)
+
+VALIDA1 (VOUCHER.CODIGOCOMPANIA)
+
+POST-CHANGE (VOUCHER.NOMBRECLIENTE)
+
+KEY-LISTVAL (VOUCHER.NOMBRECLIENTE)
+
+KEY-NXTBLK (VOUCHER.NOMBRECLIENTE)
+
+KEY-NEXT-ITEM (VOUCHER.NOMBRECLIENTE)
+
+VALIDA2 (VOUCHER.RECIBO)
+
+POST-TEXT-ITEM (VOUCHER.CUENTA)
+  ERROR 201 at line 6, column 7
+    identifier 'CPK_API_FINANCIAMIENTO.CONSULTA_CONTRATO' must be declared
+
+KEY-NEXT-ITEM (VOUCHER.FLUJOCAJA)
+  ERROR 201 at line 4, column 10
+    identifier 'IN_PARAMETROS_GENERALES' must be declared
+  ERROR 201 at line 14, column 11
+    identifier 'FLUJOSCAJA' must be declared
+  ERROR 320 at line 3, column 12
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 3, column 12
+    the declaration of the type of this expression is incomplete or malformed
+
+POST-CHANGE (VOUCHER.FLUJOCAJA)
+  ERROR 201 at line 4, column 11
+    identifier 'FLUJOSCAJA' must be declared
+
+WHEN-VALIDATE-ITEM (VOUCHER.FLUJOCAJA)
+
+VALIDACION (VOUCHER.FECHA)
+
+KEY-NEXT-ITEM (VOUCHER.CODIGOTARJETA)
+  ERROR 201 at line 4, column 11
+    identifier 'TARJETACREDITO' must be declared
+
+VALIDACION (VOUCHER.CODIGOTARJETA)
+  ERROR 201 at line 2, column 43
+    identifier 'OPS$BANCOS.TARJETACREDITO' must be declared
+  ERROR 320 at line 2, column 34
+    the declaration of the type of this expression is incomplete or malformed
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 20
+
+KEY-NEXT-ITEM (VOUCHER.NUMEROVOUCHER)
+
+KEY-NEXT-ITEM (VOUCHER.CUOTAS)
+
+WHEN-LIST-CHANGED (VOUCHER.CUOTAS)
+
+WHEN-VALIDATE-ITEM (VOUCHER.CIUDAD)
+
+KEY-NEXT-ITEM (VOUCHER.CIUDAD)
+
+WHEN-VALIDATE-ITEM (VOUCHER.REGION)
+
+WHEN-VALIDATE-ITEM (VOUCHER.OFICINA)
+
+KEY-LISTVAL (VOUCHER.OFICINA)
+
+KEY-NEXT-ITEM (VOUCHER.OFICINA)
+
+KEY-NEXT-ITEM (VOUCHER.NUMTARJCRED)
+
+KEY-NEXT-ITEM (VOUCHER.NUMVALE)
+
+WHEN-CHECKBOX-CHANGED (VOUCHER.V_MANUAL)
+
+KEY-NEXT-ITEM (VOUCHER.TIPOCRED)
+  ERROR 201 at line 43, column 7
+    identifier 'VTC_EASYSOFT.VALIDA_PLAZOTARJETA' must be declared
+
+WHEN-LIST-CHANGED (VOUCHER.TIPOCRED)
+  ERROR 201 at line 47, column 7
+    identifier 'VTC_EASYSOFT.VALIDA_PLAZOTARJETA' must be declared
+
+KEY-NEXT-ITEM (VOUCHER.MES_GRACIA)
+  ERROR 201 at line 5, column 7
+    identifier 'VTC_EASYSOFT.VALIDA_MES_GRACIA' must be declared
+
+WHEN-VALIDATE-ITEM (VOUCHER.MES_GRACIA)
+  ERROR 201 at line 5, column 7
+    identifier 'VTC_EASYSOFT.VALIDA_MES_GRACIA' must be declared
+
+KEY-NEXT-ITEM (VOUCHER.IVA_EASY)
+
+KEY-NEXT-ITEM (VOUCHER.TOTAL)
+  ERROR 201 at line 6, column 16
+    identifier 'VOUCHER' must be declared
+
+VALIDACION (VOUCHER.VALOR)
+
+KEY-NEXT-ITEM (VOUCHER.VALOR)
+
+KEY-NEXT-ITEM (VOUCHER.CONCEPTO)
+
+VALIDACION (VOUCHER.STATUS)
+
+VALIDA3 (VOUCHER.SECUENCIAL)
+
+KEY-NEXT-ITEM (VOUCHER.CONFIRMA)
+
+WHEN-NEW-ITEM-INSTANCE (VOUCHER.CONFIRMA)
+
+KEY-NEXT-ITEM (VOUCHER.OBSERVACION)
+
+WHEN-BUTTON-PRESSED (VOUCHER.GENERAR)
+
+KEY-NEXT-ITEM (VOUCHER.EXCENTO_RECUPERADORA)
+
+WHEN-NEW-ITEM-INSTANCE (VOUCHER.EXCENTO_RECUPERADORA)
+
+POST-INSERT (VOUCHER)
+  ERROR 201 at line 9, column 6
+    identifier 'RECIBO.PAGO_INSERT' must be declared
+
+PRE-INSERT (VOUCHER)
+  ERROR 201 at line 25, column 7
+    identifier 'RECIBO.CAMBIA_FECHA' must be declared
+  ERROR 201 at line 37, column 16
+    identifier 'VOUCHER' must be declared
+  ERROR 201 at line 93, column 16
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 100, column 16
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 107, column 13
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 112, column 17
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 136, column 6
+    identifier 'VTC_EASYSOFT.VALIDA_TARJETACREDITO' must be declared
+
+KEY-COMMIT (VOUCHER)
+
+KEY-CQUERY (VOUCHER)
+
+KEY-LISTVAL (VOUCHER)
+
+TRIGGER_EXIT2 (VOUCHER)
+  ERROR 201 at line 7, column 14
+    identifier 'VOUCHER' must be declared
+  ERROR 201 at line 17, column 14
+    identifier 'VOUCHER' must be declared
+
+KEY-NEXT-ITEM (VOUCHER)
+
+KEY-OTHERS (VOUCHER)
+
+KEY-PRINT (VOUCHER)
+
+KEY-PREV-ITEM (VOUCHER)
+
+POST-CHANGE (TELEFONOS.CUENTA)
+  ERROR 201 at line 27, column 11
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 31, column 4
+    identifier 'CPK_API_FINANCIAMIENTO.CONSULTA_SERVICIO' must be declared
+  ERROR 201 at line 35, column 21
+    identifier 'CAK_API_INFO_RECIBOS.OBTIENE_SALDO_ACTUAL' must be declared
+  ERROR 201 at line 36, column 13
+    identifier 'CAK_API_INFO_RECIBOS.OBTIENE_ESTADO_MMAG' must be declared
+  ERROR 201 at line 42, column 11
+    identifier 'CL_CONTRATOS' must be declared
+  ERROR 201 at line 54, column 9
+    identifier 'FA_CICLOS_BSCS' must be declared
+  ERROR 201 at line 86, column 4
+    identifier 'CPK_API_FINANCIAMIENTO.CONSULTA_CONTRATO' must be declared
+  ERROR 201 at line 117, column 9
+    identifier 'CART_CLIENTES_DAT' must be declared
+  ERROR 201 at line 125, column 16
+    identifier 'CART_CUENTAS_DAT' must be declared
+  ERROR 201 at line 153, column 21
+    identifier 'FLUJOSCAJA' must be declared
+  ERROR 201 at line 176, column 11
+    identifier 'CL_CONTRATOS' must be declared
+  ERROR 201 at line 188, column 9
+    identifier 'FA_CICLOS_BSCS' must be declared
+
+KEY-LISTVAL (TELEFONOS.CUENTA)
+
+KEY-NEXT-ITEM (TELEFONOS.CUENTA)
+  ERROR 201 at line 46, column 4
+    identifier 'CPK_API_FINANCIAMIENTO.CONSULTA_CONTRATO' must be declared
+  ERROR 201 at line 76, column 12
+    identifier 'CART_CLIENTES_DAT' must be declared
+  ERROR 201 at line 85, column 19
+    identifier 'CART_CUENTAS_DAT' must be declared
+  ERROR 201 at line 113, column 23
+    identifier 'FLUJOSCAJA' must be declared
+  ERROR 201 at line 143, column 23
+    identifier 'FORMA_PAGO_RECUPERADORA' must be declared
+  ERROR 201 at line 172, column 23
+    identifier 'CART_CUENTAS_DAT' must be declared
+  ERROR 201 at line 183, column 24
+    identifier 'CART_RECUPERADORAS_DAT' must be declared
+  ERROR 201 at line 212, column 20
+    identifier 'COK_API_FINANCIAMIENTOS_FINAN.COF_FLUJO_CAJA' must be declared
+  ERROR 201 at line 218, column 14
+    identifier 'FLUJOSCAJA' must be declared
+
+POST-CHANGE (TELEFONOS.FORMAP)
+  ERROR 201 at line 4, column 11
+    identifier 'FORMASP' must be declared
+
+POST-CHANGE (TELEFONOS.COMPANIA)
+  ERROR 201 at line 3, column 8
+    identifier 'CMPN' must be declared
+
+WHEN-BUTTON-PRESSED (TELEFONOS.DETALLE)
+
+KEY-DOWN (TELEFONOS)
+
+KEY-ENTQRY (TELEFONOS)
+
+KEY-EXEQRY (TELEFONOS)
+
+TRIGGER_EXIT3 (TELEFONOS)
+
+KEY-OTHERS (TELEFONOS)
+
+KEY-PRINT (TELEFONOS)
+
+KEY-PRVBLK (TELEFONOS)
+  ERROR 201 at line 6, column 4
+    identifier 'CPK_API_FINANCIAMIENTO.CONSULTA_CONTRATO' must be declared
+
+KEY-SCRDOWN (TELEFONOS)
+
+KEY-SCRUP (TELEFONOS)
+
+KEY-UP (TELEFONOS)
+
+KEY-NEXT-ITEM (PORTANET.CODIGO_DOC)
+
+POST-CHANGE (PORTANET.CODIGO_DOC)
+  ERROR 201 at line 11, column 9
+    identifier 'CL_CONSULTA_NOMBRE_AXIS' must be declared
+
+POST-TEXT-ITEM (PORTANET.NOM_CLI)
+
+KEY-LISTVAL (PORTANET.NOM_CLI)
+
+KEY-NEXT-ITEM (PORTANET.NOM_CLI)
+
+KEY-NEXT-ITEM (IN_FACTURAS_RECIBOS.NO_FACTURA)
+  ERROR 201 at line 4, column 10
+    identifier 'IN_FACTURAS_RECIBOS' must be declared
+  ERROR 201 at line 11, column 10
+    identifier 'IN_ORDEN' must be declared
+  ERROR 320 at line 3, column 12
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 10, column 12
+    the declaration of the type of this expression is incomplete or malformed
+
+KEY-NEXT-ITEM (IN_FACTURAS_RECIBOS.TIPO_ORDEN)
+  ERROR 201 at line 4, column 10
+    identifier 'IN_FACTURAS_RECIBOS' must be declared
+  ERROR 201 at line 11, column 10
+    identifier 'IN_ORDEN' must be declared
+  ERROR 320 at line 3, column 12
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 10, column 12
+    the declaration of the type of this expression is incomplete or malformed
+
+WHEN-VALIDATE-ITEM (IN_FACTURAS_RECIBOS.MONTO_ABONAR)
+
+WHEN-BUTTON-PRESSED (IN_FACTURAS_RECIBOS.PB_REGRESAR)
+
+WHEN-NEW-RECORD-INSTANCE (IN_FACTURAS_RECIBOS)
+
+WHEN-NEW-ITEM-INSTANCE (TOOLBAR.DUMMY)
+
+WHEN-BUTTON-PRESSED (TOOLBAR)
+
+KEY-NEXT-ITEM (INFO_MEDIOS.IM_FACTURA)
+
+KEY-NEXT-ITEM (TITULO2.NRO_BODEGA)
+  ERROR 201 at line 7, column 10
+    identifier 'IN_CAC_USUARIO' must be declared
+
+KEY-NEXT-ITEM (TARJETA_REGALO.DESC_PRODUCTO)
+  ERROR 201 at line 5, column 10
+    identifier 'IN_PRODUCTO' must be declared
+
+KEY-NEXT-ITEM (TARJETA_REGALO.NRO_SERIE)
+  ERROR 201 at line 13, column 3
+    identifier 'INK_TARJETA_REGALO.VALIDA_SERIE_TARJETA' must be declared
+
+CXCO1* (Procedure Body)
+  ERROR 201 at line 8, column 13
+    identifier 'CXCO' must be declared
+
+FLUJO_CONS (Procedure Body)
+
+OBTIENE_SECUENCIA* (Procedure Body)
+  ERROR 201 at line 8, column 7
+    identifier 'IN_P_SEC_RETENCION' must be declared
+  ERROR 201 at line 16, column 7
+    identifier 'INK_BITACORA_SECUENCIA.GRABA' must be declared
+
+GRABA* (Procedure Body)
+  ERROR 201 at line 78, column 4
+    identifier 'VTC_EASYSOFT.VALIDA_PLAZOTARJETA' must be declared
+  ERROR 201 at line 93, column 4
+    identifier 'VTC_EASYSOFT.VALIDA_MES_GRACIA' must be declared
+  ERROR 201 at line 114, column 15
+    identifier 'IN_CUENTAS_BSCS' must be declared
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 28
+  Not Converted:  Replacing LENGTH(...) with NVL(LENGTH(...), 0) at line 30 column 7
+
+GRABA_FACTURAS* (Procedure Body)
+  ERROR 201 at line 5, column 25
+    identifier 'IN_VENDEDOR' must be declared
+  ERROR 201 at line 6, column 13
+    identifier 'IN_VENDEDOR.CEDULA' must be declared
+  ERROR 320 at line 17, column 32
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 19, column 9
+    the declaration of the type of this expression is incomplete or malformed
+
+IMPRIME* (Procedure Body)
+  ERROR 201 at line 48, column 64
+    identifier 'VOUCHER' must be declared
+  ERROR 201 at line 56, column 55
+    identifier 'VOUCHER' must be declared
+  ERROR 201 at line 63, column 47
+    identifier 'VOUCHER' must be declared
+  ERROR 201 at line 74, column 10
+    identifier 'RECIBO.GRABA_RECU' must be declared
+  ERROR 201 at line 82, column 10
+    identifier 'CPK_API_FINANCIAMIENTO.CANCELA_CONVENIO' must be declared
+  ERROR 201 at line 151, column 4
+    identifier 'INK_BITACORA_SECUENCIA.ACTUALIZA' must be declared
+  ERROR 201 at line 167, column 9
+    identifier 'INK_BITACORA_SECUENCIA.ACTUALIZA' must be declared
+  ERROR 201 at line 179, column 9
+    identifier 'INK_BITACORA_SECUENCIA.ACTUALIZA' must be declared
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 27
+
+HINT* (Package Body)
+  ERROR 201 at line 72, column 21
+    identifier 'TO_PLS_INTEGER' must be declared
+  ERROR 201 at line 75, column 23
+    identifier 'TO_PLS_INTEGER' must be declared
+  Not Converted:  Replacing TO_PLS_INTEGER with TO_NUMBER at line 72 column 21
+  Not Converted:  Replacing TO_PLS_INTEGER with TO_NUMBER at line 75 column 23
+  Not Converted:  Insert a RETURN NULL; statement at line 94 column 3
+  Not Converted:  Insert a RETURN NULL; statement at line 122 column 3
+
+MENSAJES_ERR (Function Body)
+
+MSG_ALERT (Procedure Body)
+
+TOOLBAR_ACTIONS (Procedure Body)
+
+MMAG_INFO_DETALLADA* (Procedure Body)
+  ERROR 201 at line 10, column 10
+    identifier 'MMAG_DATOS_MEDIO_DAT' must be declared
+  ERROR 201 at line 17, column 151
+    identifier 'DUAL' must be declared
+  ERROR 364 at line 24, column 21
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 25, column 19
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 26, column 21
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 28, column 9
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 40, column 9
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 52, column 9
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 64, column 19
+    loop index variable 'I' use is invalid
+
+PU_LIBERAR_IMEI* (Procedure Body)
+  ERROR 201 at line 4, column 20
+    identifier 'CP_IMEI_BL' must be declared
+  ERROR 201 at line 35, column 11
+    identifier 'CL_SERVICIOS_CONTRATADOS' must be declared
+  ERROR 201 at line 51, column 3
+    identifier 'CPK_TRX_LIBERAR_IMEI.CPP_CONSULTAR_IMEI' must be declared
+  ERROR 364 at line 84, column 41
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 100, column 63
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 118, column 42
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 119, column 42
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 124, column 45
+    loop index variable 'I' use is invalid
+  ERROR 364 at line 125, column 45
+    loop index variable 'I' use is invalid
+
+VALIDA_PARA_CUOTAFACIL* (Procedure Body)
+  ERROR 201 at line 23, column 23
+    identifier 'VALIDA_RUC' must be declared
+  Not Converted:  Replacing LENGTH(...) with NVL(LENGTH(...), 0) at line 10 column 18
+  Not Converted:  Replacing LENGTH(...) with NVL(LENGTH(...), 0) at line 22 column 13
+
+CARGA_PLAZOS* (Procedure Body)
+  ERROR 201 at line 4, column 14
+    identifier 'IN_PARAMETROS_TARJETAS' must be declared
+  ERROR 364 at line 16, column 51
+    loop index variable 'X' use is invalid
+
+ES_FINANCIAMIENTO_AMIGO_KIT* (Function Body)
+  ERROR 201 at line 16, column 22
+    identifier 'COK_API_FINANCIAMIENTOS_FINAN.COF_MESES_FINAN' must be declared
+  ERROR 201 at line 17, column 19
+    identifier 'COK_API_FINANCIAMIENTOS_FINAN.COF_FORMA_PAGO_FAK' must be
+    declared
+  ERROR 201 at line 21, column 11
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 26, column 11
+    identifier 'IN_ORDEN' must be declared
+  Not Converted:  Insert a RETURN NULL; statement at line 42 column 1
+
+VERIFICA_USUARIO* (Procedure Body)
+  ERROR 201 at line 5, column 7
+    identifier 'CAJERAS' must be declared
+  ERROR 201 at line 18, column 14
+    identifier 'IN_FORMA_PAGO' must be declared
+  ERROR 201 at line 25, column 7
+    identifier 'IN_CAC_USUARIO' must be declared
+  ERROR 341 at line 23, column 10
+    declaration of cursor 'C_CAC' is incomplete or malformed
+  ERROR 341 at line 3, column 11
+    declaration of cursor 'C_CAJEROS' is incomplete or malformed
+  ERROR 320 at line 43, column 23
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 48, column 7
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 77, column 21
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 81, column 25
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 82, column 19
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 83, column 18
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 84, column 17
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 85, column 17
+    the declaration of the type of this expression is incomplete or malformed
+
+FACTURA_TARJETAS_REGALO* (Procedure Body)
+  ERROR 201 at line 4, column 12
+    identifier 'IN_PARAMETROS_GENERALES' must be declared
+  ERROR 320 at line 3, column 14
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 3, column 14
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 201 at line 43, column 9
+    identifier 'INK_TARJETA_REGALO.ACTUALIZA_INVENTARIO_TARJ' must be declared
+  ERROR 902 at line 54, column 19
+    A READ-ONLY bind variable used in OUT or IN-OUT context
+  ERROR 201 at line 60, column 7
+    identifier 'INK_TARJETA_REGALO.ACTUALIZA_CANTIDAD_INVENTARIO' must be
+    declared
+
+KEY-EXIT (Form)
+  ERROR 201 at line 21, column 14
+    identifier 'VOUCHER' must be declared
+  ERROR 201 at line 32, column 14
+    identifier 'VOUCHER' must be declared
+  ERROR 201 at line 38, column 17
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 42, column 17
+    identifier 'PAGOS' must be declared
+
+WHEN-NEW-FORM-INSTANCE (Form)
+  ERROR 201 at line 13, column 15
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 17, column 15
+    identifier 'MASCARA' must be declared
+
+WHEN-TIMER-EXPIRED (Form)
+
+PRE-FORM (Form)
+
+WHEN-MOUSE-ENTER (Form)

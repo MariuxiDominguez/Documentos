@@ -1,0 +1,299 @@
+PL/SQL V1 Conversion Summary - Form: BANFCIEUSER
+
+WHEN-NEW-ITEM-INSTANCE (TOOLBAR.DUMMY)
+
+WHEN-BUTTON-PRESSED (TOOLBAR)
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.COMPANIA)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.FECHA)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.REGION)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.CAC)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.CAC_DESC)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.USUARIO)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.EFECTIVO)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+KEY-NEXT-ITEM (BL_TRABAJO.EFECTIVO)
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.CHEQUE)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+KEY-NEXT-ITEM (BL_TRABAJO.CHEQUE)
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.CANT_CHEQUE_DEP)
+  ERROR 201 at line 15, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+KEY-NEXT-ITEM (BL_TRABAJO.CANT_CHEQUE_DEP)
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.VOUCHER)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.RETENCIONES)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.OTRAS_FORMAS)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.FP_SIS)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.DEV_HTM)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.DEV_AUTONOMIA)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-VALIDATE-ITEM (BL_TRABAJO.OBSERVACIONES)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+WHEN-BUTTON-PRESSED (BL_TRABAJO.BTN_GENERAR)
+
+WHEN-BUTTON-PRESSED (BL_TRABAJO.BTN_IMPRIMIR_MEMO)
+
+WHEN-BUTTON-PRESSED (BL_TRABAJO.BTN_IMPRIMIR_CIERRE)
+
+PRE-UPDATE (BL_TRABAJO)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+PRE-INSERT (BL_TRABAJO)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+PRE-QUERY (BL_TRABAJO)
+  ERROR 201 at line 10, column 1
+    identifier 'PU_VALIDA_SQL_INJECTION' must be declared
+
+KEY-NEXT-ITEM (BL_MEMO.REI_MEMO)
+  ERROR 201 at line 43, column 2
+    identifier 'PU_INSERTA_BITACORA' must be declared
+
+WHEN-VALIDATE-ITEM (BL_MEMO)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+PRE-UPDATE (BL_MEMO)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+PRE-INSERT (BL_MEMO)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+PRE-QUERY (BL_MEMO)
+  ERROR 201 at line 10, column 1
+    identifier 'PU_VALIDA_SQL_INJECTION' must be declared
+
+KEY-NEXT-ITEM (BL_CIERRE.REI_CIERRE)
+
+WHEN-VALIDATE-ITEM (BL_CIERRE)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+PRE-UPDATE (BL_CIERRE)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+PRE-INSERT (BL_CIERRE)
+  ERROR 201 at line 10, column 3
+    identifier 'PU_VALIDA_CARACTER_ESPECIAL' must be declared
+
+PRE-QUERY (BL_CIERRE)
+  ERROR 201 at line 10, column 1
+    identifier 'PU_VALIDA_SQL_INJECTION' must be declared
+
+KEY-NEXT-ITEM (DETALLE.DOL_100)
+
+KEY-UP (DETALLE.DOL_100)
+
+KEY-DOWN (DETALLE.DOL_100)
+
+WHEN-VALIDATE-ITEM (DETALLE.DOL_100)
+
+KEY-NEXT-ITEM (DETALLE.DOL_50)
+
+KEY-UP (DETALLE.DOL_50)
+
+KEY-DOWN (DETALLE.DOL_50)
+
+WHEN-VALIDATE-ITEM (DETALLE.DOL_50)
+
+KEY-NEXT-ITEM (DETALLE.DOL_20)
+
+KEY-UP (DETALLE.DOL_20)
+
+KEY-DOWN (DETALLE.DOL_20)
+
+WHEN-VALIDATE-ITEM (DETALLE.DOL_20)
+
+KEY-NEXT-ITEM (DETALLE.DOL_10)
+
+KEY-UP (DETALLE.DOL_10)
+
+KEY-DOWN (DETALLE.DOL_10)
+
+WHEN-VALIDATE-ITEM (DETALLE.DOL_10)
+
+KEY-NEXT-ITEM (DETALLE.DOL_5)
+
+KEY-UP (DETALLE.DOL_5)
+
+KEY-DOWN (DETALLE.DOL_5)
+
+WHEN-VALIDATE-ITEM (DETALLE.DOL_5)
+
+KEY-NEXT-ITEM (DETALLE.DOL_1)
+
+KEY-DOWN (DETALLE.DOL_1)
+
+KEY-UP (DETALLE.DOL_1)
+
+WHEN-VALIDATE-ITEM (DETALLE.DOL_1)
+
+KEY-NEXT-ITEM (DETALLE.MON_1)
+
+KEY-DOWN (DETALLE.MON_1)
+
+KEY-UP (DETALLE.MON_1)
+
+WHEN-VALIDATE-ITEM (DETALLE.MON_1)
+
+KEY-NEXT-ITEM (DETALLE.MON_50)
+
+KEY-DOWN (DETALLE.MON_50)
+
+KEY-UP (DETALLE.MON_50)
+
+WHEN-VALIDATE-ITEM (DETALLE.MON_50)
+
+KEY-NEXT-ITEM (DETALLE.MON_25)
+
+KEY-UP (DETALLE.MON_25)
+
+KEY-DOWN (DETALLE.MON_25)
+
+WHEN-VALIDATE-ITEM (DETALLE.MON_25)
+
+KEY-NEXT-ITEM (DETALLE.MON_10)
+
+KEY-DOWN (DETALLE.MON_10)
+
+KEY-UP (DETALLE.MON_10)
+
+WHEN-VALIDATE-ITEM (DETALLE.MON_10)
+
+KEY-NEXT-ITEM (DETALLE.MON_05)
+
+KEY-DOWN (DETALLE.MON_05)
+
+KEY-UP (DETALLE.MON_05)
+
+WHEN-VALIDATE-ITEM (DETALLE.MON_05)
+
+KEY-NEXT-ITEM (DETALLE.MON_01)
+
+KEY-DOWN (DETALLE.MON_01)
+
+KEY-UP (DETALLE.MON_01)
+
+WHEN-VALIDATE-ITEM (DETALLE.MON_01)
+
+WHEN-BUTTON-PRESSED (DETALLE.REGRESAR)
+
+TOOLBAR_ACTIONS (Procedure Body)
+
+GRABAR* (Procedure Body)
+  ERROR 201 at line 12, column 10
+    identifier 'IN_CIERRE_APER_CAJA' must be declared
+
+IMPRIMIR_MEMO* (Procedure Body)
+  ERROR 201 at line 38, column 2
+    identifier 'PU_INSERTA_BITACORA' must be declared
+
+IMPRIMIR_CIERRE (Procedure Body)
+
+IMPRIMIR_MEMO_VOU* (Procedure Body)
+  ERROR 201 at line 42, column 2
+    identifier 'PU_INSERTA_BITACORA' must be declared
+
+DETALLE_EFECTIVO* (Procedure Body)
+  ERROR 201 at line 4, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 8, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 12, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 16, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 20, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 24, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 28, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 32, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 36, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 40, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 44, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+  ERROR 201 at line 48, column 18
+    identifier 'IN_DETALLE_MON_BIL' must be declared
+
+ON-ERROR (Form)
+  ERROR 201 at line 16, column 1
+    identifier 'PU_INSERTA_BITACORA' must be declared
+
+PRE-FORM (Form)
+
+WHEN-NEW-FORM-INSTANCE (Form)
+  ERROR 201 at line 10, column 1
+    identifier 'PU_INSERTA_BITACORA' must be declared
+  ERROR 201 at line 26, column 10
+    identifier 'IN_CIERRE_APER_CAJA' must be declared
+  ERROR 201 at line 34, column 10
+    identifier 'IN_CAC_USUARIO' must be declared
+  ERROR 201 at line 42, column 10
+    identifier 'IN_CIERRE_APER_CAJA' must be declared
+  ERROR 201 at line 49, column 9
+    identifier 'IN_ORDEN' must be declared
+  ERROR 341 at line 24, column 10
+    declaration of cursor 'C_CONTROLA' is incomplete or malformed
+  ERROR 320 at line 62, column 25
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 33, column 14
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 41, column 13
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 320 at line 48, column 11
+    the declaration of the type of this expression is incomplete or malformed

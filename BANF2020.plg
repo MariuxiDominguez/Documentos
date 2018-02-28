@@ -1,0 +1,176 @@
+PL/SQL V1 Conversion Summary - Form: BANF2020
+
+KEY-EXIT (TITULO)
+
+KEY-OTHERS (TITULO)
+
+POST-CHANGE (DETALLE.CAC)
+  ERROR 201 at line 4, column 11
+    identifier 'IN_GE_OFICINAS' must be declared
+
+POST-CHANGE (DETALLE.CODIGOCOMPANIA)
+  ERROR 201 at line 3, column 8
+    identifier 'CMPN' must be declared
+
+KEY-PREV-ITEM (DETALLE.CODIGOCOMPANIA)
+
+POST-CHANGE (DETALLE.FLUJOCAJA)
+  ERROR 201 at line 4, column 11
+    identifier 'FLUJOSCAJA' must be declared
+
+WHEN-VALIDATE-ITEM (DETALLE.STATUS)
+
+POST-CHANGE (DETALLE.TIPO)
+  ERROR 201 at line 4, column 11
+    identifier 'FORMASRECUPERACION' must be declared
+
+POST-CHANGE (DETALLE.BANCODEPOSITO)
+  ERROR 201 at line 4, column 11
+    identifier 'BANCOS' must be declared
+
+POST-CHANGE (DETALLE.FORMAPAGO)
+  ERROR 201 at line 3, column 8
+    identifier 'FORMASPAGO' must be declared
+
+POST-CHANGE (DETALLE.CODIGOBANCO)
+  ERROR 201 at line 3, column 8
+    identifier 'BANCOS' must be declared
+
+POST-CHANGE (DETALLE.VALOR)
+  ERROR 201 at line 3, column 8
+    identifier 'FACTURACION' must be declared
+
+PRE-UPDATE (DETALLE)
+  ERROR 201 at line 11, column 11
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 24, column 15
+    identifier 'SALDOSCAJA' must be declared
+  ERROR 201 at line 28, column 18
+    identifier 'SALDOSCAJA' must be declared
+  ERROR 201 at line 42, column 18
+    identifier 'SALDOSCAJA' must be declared
+  ERROR 201 at line 51, column 21
+    identifier 'SALDOSCAJA' must be declared
+  ERROR 201 at line 55, column 23
+    identifier 'SALDOSCAJA' must be declared
+  ERROR 201 at line 66, column 15
+    identifier 'SALDOSBANCO' must be declared
+  ERROR 201 at line 72, column 18
+    identifier 'SALDOSBANCO' must be declared
+  ERROR 201 at line 81, column 18
+    identifier 'SALDOSBANCO' must be declared
+  ERROR 201 at line 90, column 21
+    identifier 'SALDOSBANCO' must be declared
+  ERROR 201 at line 96, column 23
+    identifier 'SALDOSBANCO' must be declared
+
+KEY-COMMIT (DETALLE)
+  ERROR 201 at line 16, column 16
+    identifier 'REC_ANULA' must be declared
+
+KEY-DELREC (DETALLE)
+  ERROR 201 at line 6, column 6
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 9, column 8
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 18, column 12
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 22, column 12
+    identifier 'PAGOS' must be declared
+  ERROR 201 at line 40, column 10
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 45, column 19
+    identifier 'PA_AXIS_PAGOS_DAT' must be declared
+
+KEY-DOWN (DETALLE)
+
+KEY-ENTQRY (DETALLE)
+
+KEY-EXEQRY (DETALLE)
+
+KEY-EXIT (DETALLE)
+
+KEY-LISTVAL (DETALLE)
+
+KEY-NXTREC (DETALLE)
+
+KEY-OTHERS (DETALLE)
+
+KEY-PRINT (DETALLE)
+
+KEY-PRVREC (DETALLE)
+
+KEY-SCRDOWN (DETALLE)
+
+KEY-SCRUP (DETALLE)
+
+KEY-UP (DETALLE)
+
+WHEN-NEW-ITEM-INSTANCE (TOOLBAR.DUMMY)
+
+WHEN-BUTTON-PRESSED (TOOLBAR)
+  ERROR 201 at line 3, column 1
+    identifier 'TOOLBAR_ACTIONS' must be declared
+
+CAMBIO* (Procedure Body)
+  ERROR 201 at line 13, column 11
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 26, column 15
+    identifier 'SALDOSCAJA' must be declared
+  ERROR 201 at line 30, column 18
+    identifier 'SALDOSCAJA' must be declared
+  ERROR 201 at line 44, column 18
+    identifier 'SALDOSCAJA' must be declared
+  ERROR 201 at line 53, column 21
+    identifier 'SALDOSCAJA' must be declared
+  ERROR 201 at line 57, column 23
+    identifier 'SALDOSCAJA' must be declared
+  ERROR 201 at line 68, column 15
+    identifier 'SALDOSBANCO' must be declared
+  ERROR 201 at line 74, column 18
+    identifier 'SALDOSBANCO' must be declared
+  ERROR 201 at line 83, column 18
+    identifier 'SALDOSBANCO' must be declared
+  ERROR 201 at line 92, column 21
+    identifier 'SALDOSBANCO' must be declared
+  ERROR 201 at line 98, column 23
+    identifier 'SALDOSBANCO' must be declared
+
+CONTROL* (Procedure Body)
+  ERROR 201 at line 5, column 10
+    identifier 'FACTURACION' must be declared
+
+ON-MESSAGE (Form)
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 11
+
+KEY-EXIT (Form)
+  ERROR 201 at line 7, column 10
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 17, column 11
+    identifier 'FACTURACION' must be declared
+
+WHEN-NEW-FORM-INSTANCE (Form)
+  ERROR 201 at line 9, column 8
+    identifier 'VERSIONES' must be declared
+  ERROR 201 at line 16, column 18
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 18, column 18
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 20, column 18
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 22, column 18
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 24, column 18
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 26, column 18
+    identifier 'MASCARA' must be declared
+
+WHEN-TIMER-EXPIRED (Form)
+  ERROR 201 at line 2, column 1
+    identifier 'HINT.SHOWBUTTONHELPHANDLER' must be declared
+
+WHEN-MOUSE-ENTER (Form)
+  ERROR 201 at line 1, column 1
+    identifier 'HINT.SHOWBUTTONHELP' must be declared
+
+PRE-FORM (Form)

@@ -1,0 +1,341 @@
+PL/SQL V1 Conversion Summary - Menu Module: CAJA
+
+MAIN_MENU.AYUDA
+
+VENTAS_MENU.NOTAS_DE_PEDIDO
+
+VENTAS_MENU.FACTURACIÓN
+
+VENTAS_MENU.FACTURACIÓN_TARJETAS_AMBATOESM
+
+VENTAS_MENU.FACTURACIÓN_DE_INVENTARIO
+
+VENTAS_MENU.FACTURACIÓN_INVENTARIO_AMBATOE
+
+VENTAS_MENU.DEVOLUCIONES
+
+VENTAS_MENU.DEVOLUCIONES_TARJETAS_TAC
+
+VENTAS_MENU.ENTREGA_TELÉFONO
+
+VENTAS_MENU.ASIGNACIÓN_DE_FACTURAS_SRI
+
+VENTAS_MENU.INGRESO_DE_FACTURAS_SRI_ANULAD
+
+VENTAS_MENU.MODIFICACIÓN_DE_FACTURA_SRI
+
+VENTAS_MENU.REIMPRESIÓN_DE_FACTURA
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU.REIMPRESION_FACTURA_INVENTARIO
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+
+VENTAS_MENU.REIMPRESION_DE_DEVOLUCIONES
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+REIMPRESIÓN_REALES_MENU.FACTURAS_DE_INVENTARIO
+
+REIMPRESIÓN_REALES_MENU.FACTURAS_TARJETAS
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+REIMPRESIÓN_REALES_MENU.DEVOLUCIONES
+
+VENTAS_MENU15.ORDENES
+
+VENTAS_MENU15.NOTAS_DE_PEDIDO_PENDIENTES
+
+VENTAS_MENU15.CONSULTA_DE_FACTURAS_PREPAGO
+
+VENTAS_MENU15.FACTURAS_DE_INVENTRARIO
+
+VENTAS_MENU15.DEVOLUCIONES
+
+VENTAS_MENU22.REPORTE_DE_VENTAS_PREPAGO
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_TARJETAS_PORTA_ALO_USUA
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_PREPAGO_TOTAL
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_TARJETAS_PORTA_ALO_TOTA
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_TARJETAS_PORTA_ALO_COST
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_PREPAGO_BODEGAS
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_INVENTARIO_USUARIO
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_INVENTARIO_TOTAL
+
+VENTAS_MENU22.VENTAS_INVENTARIO_USUARIO81
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_INVENTARIO_TOTAL82
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_SERVICIOS_USUARIO
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_SERVICIOS_TOTAL
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_POR_PLANES
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.VENTAS_POR_FACTURAS_SRI
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.FACTURAS_POR_BODEGA
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.FACTURAS_SRI_ANULADAS
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.DEVOLUCIÓN_DE_INVENTARIO
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+
+VENTAS_MENU22.DEVOLUCIÓN_SERVICIOS
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.DEVOLUCIÓN_TARJETAS_PREPAGO
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.DEVOLUCIONES_SRI
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_MENU22.REIMPRESION_NOTAS_DE_PEDIDO
+
+CAJA_MENU.RECIBOS_DE_CAJA_DINERO
+
+CAJA_MENU.RECIBOS_DE_CAJA_TARJETA_DE_CRÉ
+
+CAJA_MENU.REIMPRESIÓN_DE_RECIBOS
+
+CAJA_MENU35.CONSULTA_DE_RECIBOS_DE_CAJA
+
+CAJA_MENU35.CONSULTA_DE_VOUCHERS_RECIBIDOS
+
+CAJA_MENU35.CONSULTA_DE_CHEQUES_RECIBIDOS_
+
+CAJA_MENU41.DIARIO_DE_CJA_EFECTIVO
+
+CAJA_MENU41.DIARIO_DE_CAJA_EFECTIVO_USUARI
+
+CAJA_MENU41.CIERRE_DE_CAJA
+
+CAJA_MENU41.CIERRE_DE_CAJA_DETALLADO
+
+CAJA_MENU41.CIERRE_DE_CAJA_USUARIO
+
+CAJA_MENU41.CUADRE_DIARIO_DE_CAJA
+
+CAJA_MENU41.CHEQUES_RECIBIDOS_EN_CAJA
+
+CAJA_MENU41.CHEQUES_RECIBIDOS_TOTAL
+
+CAJA_MENU41.TARJETAS_DE_CREDITO_RECIBIDAS_
+
+CAJA_MENU41.TARJETAS_DE_CRÉDITO_RECIBIDAS_
+
+VENTAS_ACUMULADAS_DE_TARJETAS_MENU.VENTAS_TARJETAS_VALORES
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_ACUMULADAS_DE_TARJETAS_MENU.VENTAS_TARJETAS_CANTIDAD
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_ACUMULADAS_DE_TARJETAS_MENU.STOCK_DE_TARJETAS
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_DE_TARJETAS_POR_FECHAS_MENU.VENTAS_DE_TARJETAS
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_DE_TARJETAS_POR_FECHAS_MENU.VENTAS_DE_TARJETAS253
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+VENTAS_DE_TARJETAS_POR_FECHAS_MENU.VENTAS_TARJETAS_CON_DESCUENTO
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+TELEFONÍA_PÚBLICA_MENU.FACTURACIÓN_CONSOLIDADO
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+TELEFONÍA_PÚBLICA_MENU.FACTURAS_POR_BODEGA
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+TELEFONÍA_PÚBLICA_MENU.FACTURACIÓN_USUARIO
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+TELEFONÍA_PÚBLICA_MENU.NOTAS_DE_CRÉDITO_POR_BODEGA
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+TELEFONÍA_PÚBLICA_MENU.VENTAS_POR_CONCESIONARIO
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+TELEFONÍA_PÚBLICA_MENU.VENTAS_POR_CONCESIONARIO175
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+TELEFONÍA_PÚBLICA_MENU.VENTAS_DE_CONCESIONES
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+TELEFONÍA_PÚBLICA_MENU.VENTAS_POR_DISTRIBUIDOR
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+TELEFONÍA_PÚBLICA_MENU.NETO_DE_CONCESIONES
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+INVENTARIO_MENU.REPORTE_DE_PRECIOS
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+INVENTARIO_MENU.NÚMERO_SERIE_POR_ESTADO
+
+INVENTARIO_MENU.LISTADO_FÍSICO_SERIALES
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+INVENTARIO_MENU.VALORADO_POR_BODEGAS
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+INVENTARIO_MENU.VALORADO_POR_BODEGAS_TARJETAS
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+INVENTARIO_MENU.COSTOS_DE_ULTIMO_INGRESO_POR_P
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 13
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 13
+
+MAESTROS_MENU.MANTENEDOR_DE_FORMAS_PAGO_RECU
+
+MAESTROS_MENU.MANTENEDOR_INFORMACIÓN_DE_CAJE
+
+MAESTROS_MENU.CUENTAS_RECODIFICADAS
+
+MAESTROS_MENU.CAMBIAR_CONTRASEÑA

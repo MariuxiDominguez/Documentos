@@ -1,0 +1,88 @@
+PL/SQL V1 Conversion Summary - Form: BANF2017
+
+POST-CHANGE (VOUCHER.CODIGOCOMPANIA)
+  ERROR 201 at line 3, column 8
+    identifier 'CMPN' must be declared
+
+WHEN-VALIDATE-ITEM (VOUCHER.RECIBO)
+
+WHEN-VALIDATE-ITEM (VOUCHER.FECHA)
+
+WHEN-VALIDATE-ITEM (VOUCHER.SECUENCIAL)
+
+POST-CHANGE (VOUCHER.CODIGOTARJETA)
+  ERROR 201 at line 3, column 8
+    identifier 'TARJETACREDITO' must be declared
+
+WHEN-VALIDATE-ITEM (VOUCHER.CODIGOTARJETA)
+  ERROR 201 at line 2, column 43
+    identifier 'OPS$BANCOS.TARJETACREDITO' must be declared
+  ERROR 320 at line 2, column 34
+    the declaration of the type of this expression is incomplete or malformed
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 20
+
+POST-CHANGE (VOUCHER.FLUJOCAJA)
+  ERROR 201 at line 3, column 8
+    identifier 'FLUJOSCAJA' must be declared
+
+WHEN-VALIDATE-ITEM (VOUCHER.STATUS)
+
+WHEN-VALIDATE-ITEM (VOUCHER.VALOR)
+
+POST-CHANGE (VOUCHER.OFICINA)
+  ERROR 201 at line 2, column 6
+    identifier 'IN_GE_OFICINAS' must be declared
+
+KEY-COMMIT (VOUCHER)
+  ERROR 201 at line 18, column 16
+    identifier 'REC_ANULA' must be declared
+
+KEY-NXTREC (VOUCHER)
+
+KEY-PRVREC (VOUCHER)
+
+KEY-DELREC (VOUCHER)
+  ERROR 201 at line 6, column 6
+    identifier 'VOUCHER' must be declared
+  ERROR 201 at line 9, column 8
+    identifier 'VOUCHER' must be declared
+  ERROR 201 at line 18, column 12
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 22, column 12
+    identifier 'PAGOS' must be declared
+  ERROR 201 at line 37, column 10
+    identifier 'VOUCHER' must be declared
+  ERROR 201 at line 42, column 19
+    identifier 'PA_AXIS_PAGOS_DAT' must be declared
+
+KEY-DOWN (VOUCHER)
+
+KEY-ENTQRY (VOUCHER)
+
+KEY-EXEQRY (VOUCHER)
+
+KEY-EXIT (VOUCHER)
+
+KEY-LISTVAL (VOUCHER)
+
+KEY-OTHERS (VOUCHER)
+
+KEY-PRINT (VOUCHER)
+
+KEY-UP (VOUCHER)
+
+WHEN-NEW-ITEM-INSTANCE (TOOLBAR.DUMMY)
+
+WHEN-BUTTON-PRESSED (TOOLBAR)
+
+WHEN-NEW-FORM-INSTANCE (Form)
+  ERROR 201 at line 9, column 8
+    identifier 'VERSIONES' must be declared
+  ERROR 201 at line 16, column 17
+    identifier 'MASCARA' must be declared
+
+WHEN-TIMER-EXPIRED (Form)
+
+WHEN-MOUSE-ENTER (Form)
+
+PRE-FORM (Form)

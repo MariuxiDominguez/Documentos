@@ -1,0 +1,367 @@
+PL/SQL V1 Conversion Summary - Form: BANF2011
+
+TRIGGER_EXIT1 (TITULO)
+
+KEY-OTHERS (TITULO)
+
+WHEN-NEW-FORM-INSTANCE (TITULO)
+
+KEY-NEXT-ITEM (DETALLE.CODIGOCOMPANIA)
+  ERROR 201 at line 8, column 54
+    identifier 'DUAL' must be declared
+  ERROR 201 at line 12, column 11
+    identifier 'CMPN' must be declared
+
+KEY-PREV-ITEM (DETALLE.CODIGOCOMPANIA)
+
+ONXVALIDATEXFIELD (DETALLE.CODIGOCOMPANIA)
+  ERROR 201 at line 2, column 43
+    identifier 'CMPN' must be declared
+  ERROR 320 at line 2, column 34
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 902 at line 20, column 2
+    A READ-ONLY bind variable used in OUT or IN-OUT context
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 20
+
+ONXVALIDATEXFIELD (DETALLE.FACTURA)
+
+POST-CHANGE (DETALLE.NOMBRECLIENTE)
+
+KEY-LISTVAL (DETALLE.NOMBRECLIENTE)
+
+KEY-NXTBLK (DETALLE.NOMBRECLIENTE)
+
+KEY-NEXT-ITEM (DETALLE.NOMBRECLIENTE)
+
+KEY-NEXT-ITEM (DETALLE.FLUJOCAJA)
+  ERROR 201 at line 4, column 11
+    identifier 'FLUJOSCAJA' must be declared
+
+ONXVALIDATEXFIELD (DETALLE.FECHA)
+
+ONXVALIDATEXFIELD (DETALLE.STATUS)
+
+WHEN-VALIDATE-ITEM (DETALLE.TIPO)
+
+KEY-NEXT-ITEM (DETALLE.TIPO)
+  ERROR 201 at line 4, column 11
+    identifier 'FORMASRECUPERACION' must be declared
+
+WHEN-VALIDATE-ITEM (DETALLE.CIUDAD)
+
+KEY-NEXT-ITEM (DETALLE.CIUDAD)
+
+KEY-NEXT-ITEM (DETALLE.BANCODEPOSITO)
+  ERROR 201 at line 5, column 14
+    identifier 'BANCOS' must be declared
+  ERROR 201 at line 13, column 14
+    identifier 'BANCOS' must be declared
+
+KEY-NEXT-ITEM (DETALLE.CUENTABANCARIA)
+  ERROR 201 at line 4, column 11
+    identifier 'CUENTASBANCARIAS' must be declared
+
+KEY-NEXT-ITEM (DETALLE.FORMAPAGO)
+  ERROR 201 at line 4, column 11
+    identifier 'FORMASPAGO' must be declared
+
+ONXVALIDATEXFIELD (DETALLE.FORMAPAGO)
+  ERROR 201 at line 2, column 43
+    identifier 'FORMASPAGO' must be declared
+  ERROR 320 at line 2, column 34
+    the declaration of the type of this expression is incomplete or malformed
+  ERROR 902 at line 20, column 2
+    A READ-ONLY bind variable used in OUT or IN-OUT context
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 20
+
+KEY-NEXT-ITEM (DETALLE.CODIGOBANCO)
+  ERROR 201 at line 4, column 11
+    identifier 'BANCOS' must be declared
+
+ONXVALIDATEXFIELD (DETALLE.CODIGOBANCO)
+  ERROR 201 at line 2, column 43
+    identifier 'BANCOS' must be declared
+  ERROR 320 at line 2, column 34
+    the declaration of the type of this expression is incomplete or malformed
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 20
+
+KEY-NEXT-ITEM (DETALLE.NUMEROCHEQUE)
+
+KEY-NEXT-ITEM (DETALLE.DPSTVLOR)
+  ERROR 201 at line 7, column 16
+    identifier 'FACTURACION' must be declared
+
+KEY-PREV-ITEM (DETALLE.DPSTVLOR)
+
+POST-CHANGE (DETALLE.VALOR)
+  ERROR 201 at line 6, column 12
+    identifier 'FACTURACION' must be declared
+
+KEY-NEXT-ITEM (DETALLE.VALOR)
+
+KEY-PREV-ITEM (DETALLE.VALOR)
+
+KEY-NEXT-ITEM (DETALLE.VALORIVA)
+
+KEY-NEXT-ITEM (DETALLE.VALORRETENCION)
+
+KEY-NEXT-ITEM (DETALLE.ODEDUCCIONES)
+
+KEY-NEXT-ITEM (DETALLE.CONCEPTO)
+  ERROR 201 at line 46, column 7
+    identifier 'IN_P_SEC_RETENCION' must be declared
+  ERROR 201 at line 83, column 14
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 110, column 14
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 113, column 17
+    identifier 'IN_F_NUM_LETRAS' must be declared
+  ERROR 201 at line 139, column 9
+    identifier 'IN_P_SEC_RETENCION' must be declared
+  ERROR 201 at line 156, column 19
+    identifier 'FORMA_PAGO_RECUPERADORA' must be declared
+  ERROR 201 at line 162, column 19
+    identifier 'CART_RECUPERADORAS_DAT' must be declared
+  ERROR 201 at line 189, column 19
+    identifier 'IN_F_NUM_LETRAS' must be declared
+  ERROR 201 at line 194, column 16
+    identifier 'FACTURACION' must be declared
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 27
+  Not Converted:  CHAR to VARCHAR2 at line 3 column 27
+  Not Converted:  CHAR to VARCHAR2 at line 4 column 27
+  Not Converted:  CHAR to VARCHAR2 at line 5 column 27
+
+KEY-NEXT-ITEM (DETALLE.CAMBIO)
+
+KEY-NEXT-ITEM (DETALLE.CONFIRMA)
+
+WHEN-NEW-ITEM-INSTANCE (DETALLE.CONFIRMA)
+
+KEY-NEXT-ITEM (DETALLE.OBSERVACION)
+
+WHEN-BUTTON-PRESSED (DETALLE.GENERAR)
+
+KEY-NEXT-ITEM (DETALLE.EXCENTO_RECUPERADORA)
+
+WHEN-NEW-ITEM-INSTANCE (DETALLE.EXCENTO_RECUPERADORA)
+
+POST-INSERT (DETALLE)
+
+KEY-CQUERY (DETALLE)
+
+PRE-INSERT (DETALLE)
+  ERROR 201 at line 33, column 14
+    identifier 'SECUENCIAL_RETENCION' must be declared
+  ERROR 201 at line 38, column 20
+    identifier 'SECUENCIAL_RETENCION' must be declared
+  ERROR 201 at line 98, column 14
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 182, column 15
+    identifier 'DUAL' must be declared
+  ERROR 201 at line 184, column 22
+    identifier 'BEEPER.CART_NOTAS_CREDITO_DAT' must be declared
+  ERROR 201 at line 191, column 10
+    identifier 'CA0310' must be declared
+  ERROR 201 at line 202, column 13
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 209, column 13
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 216, column 10
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 222, column 14
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 235, column 10
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 238, column 17
+    identifier 'CLIENTES' must be declared
+
+TRIGGER29 (DETALLE)
+  ERROR 201 at line 15, column 14
+    identifier 'SECUENCIAL_RETENCION' must be declared
+  ERROR 201 at line 21, column 14
+    identifier 'SECUENCIAL_RETENCION' must be declared
+  ERROR 201 at line 38, column 14
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 88, column 13
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 95, column 13
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 102, column 10
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 108, column 14
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 115, column 10
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 118, column 17
+    identifier 'CLIENTES' must be declared
+
+TRIGGER30 (DETALLE)
+  ERROR 201 at line 15, column 14
+    identifier 'SECUENCIAL_RETENCION' must be declared
+  ERROR 201 at line 21, column 14
+    identifier 'SECUENCIAL_RETENCION' must be declared
+  ERROR 201 at line 38, column 14
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 88, column 13
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 95, column 13
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 102, column 10
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 108, column 14
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 115, column 10
+    identifier 'RECIBO.PAGO' must be declared
+  ERROR 201 at line 118, column 17
+    identifier 'CLIENTES' must be declared
+
+KEY-COMMIT (DETALLE)
+
+KEY-CREREC (DETALLE)
+
+KEY-DOWN (DETALLE)
+
+TRIGGER_EXIT2 (DETALLE)
+
+KEY-LISTVAL (DETALLE)
+
+KEY-NEXT-ITEM (DETALLE)
+
+KEY-OTHERS (DETALLE)
+
+KEY-PRINT (DETALLE)
+
+KEY-PREV-ITEM (DETALLE)
+
+KEY-PRVREC (DETALLE)
+
+POST-CHANGE (TELEFONOS.CUENTA)
+  ERROR 201 at line 9, column 11
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 38, column 9
+    identifier 'CART_CLIENTES_DAT' must be declared
+  ERROR 201 at line 46, column 16
+    identifier 'CART_CUENTAS_DAT' must be declared
+  ERROR 201 at line 75, column 21
+    identifier 'FLUJOSCAJA' must be declared
+
+KEY-NEXT-ITEM (TELEFONOS.CUENTA)
+  ERROR 201 at line 28, column 10
+    identifier 'CART_CLIENTES_DAT' must be declared
+  ERROR 201 at line 36, column 16
+    identifier 'CART_CUENTAS_DAT' must be declared
+  ERROR 201 at line 64, column 21
+    identifier 'FLUJOSCAJA' must be declared
+  ERROR 201 at line 90, column 20
+    identifier 'FORMA_PAGO_RECUPERADORA' must be declared
+  ERROR 201 at line 118, column 18
+    identifier 'CART_CUENTAS_DAT' must be declared
+  ERROR 201 at line 129, column 20
+    identifier 'CART_RECUPERADORAS_DAT' must be declared
+
+POST-CHANGE (TELEFONOS.FORMAP)
+  ERROR 201 at line 4, column 11
+    identifier 'FORMASP' must be declared
+
+POST-CHANGE (TELEFONOS.COMPANIA)
+  ERROR 201 at line 3, column 8
+    identifier 'CMPN' must be declared
+
+KEY-DOWN (TELEFONOS)
+
+KEY-ENTQRY (TELEFONOS)
+
+KEY-EXEQRY (TELEFONOS)
+
+TRIGGER_EXIT3 (TELEFONOS)
+
+KEY-NXTBLK (TELEFONOS)
+
+KEY-OTHERS (TELEFONOS)
+
+KEY-PRINT (TELEFONOS)
+
+KEY-PRVBLK (TELEFONOS)
+
+KEY-SCRDOWN (TELEFONOS)
+
+KEY-SCRUP (TELEFONOS)
+
+KEY-UP (TELEFONOS)
+
+CONTROL* (Procedure Body)
+  ERROR 201 at line 5, column 10
+    identifier 'FACTURACION' must be declared
+
+REGRABA* (Procedure Body)
+  ERROR 201 at line 39, column 14
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 48, column 22
+    identifier 'FACTURACION' must be declared
+
+PAGO_INSERT* (Procedure Body)
+  ERROR 201 at line 5, column 8
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 18, column 15
+    identifier 'FACTURACION' must be declared
+  ERROR 364 at line 30, column 28
+    loop index variable 'I' use is invalid
+  ERROR 201 at line 32, column 10
+    identifier 'PA_P_CARGA_PAGOS' must be declared
+  ERROR 364 at line 43, column 51
+    loop index variable 'J' use is invalid
+  Not Converted:  CHAR to VARCHAR2 at line 1 column 41
+
+INSERTA_FACTURA* (Procedure Body)
+  ERROR 201 at line 34, column 22
+    identifier 'FACTURACION' must be declared
+
+CASTIGO_CARTERA* (Procedure Body)
+
+KEY-EXIT (Form)
+  ERROR 201 at line 21, column 14
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 32, column 14
+    identifier 'FACTURACION' must be declared
+  ERROR 201 at line 38, column 17
+    identifier 'CLIENTES' must be declared
+  ERROR 201 at line 42, column 17
+    identifier 'PAGOS' must be declared
+
+WHEN-NEW-FORM-INSTANCE (Form)
+  ERROR 201 at line 4, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 7, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 10, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 13, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 16, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 19, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 22, column 13
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 25, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 28, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 31, column 14
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 34, column 13
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 37, column 13
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 40, column 13
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 43, column 13
+    identifier 'MASCARA' must be declared
+  ERROR 201 at line 46, column 13
+    identifier 'MASCARA' must be declared
+
+ONERROR (Form)
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 11
+
+ONMESSAGE (Form)
+  Not Converted:  CHAR to VARCHAR2 at line 2 column 11
