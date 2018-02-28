@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="2.1">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="swk_api_pcrf" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="Variables definidas por el Usuario" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Grupo de Hilos" enabled="true">
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Controlador Loop" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">100</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1281467259000</longProp>
+        <longProp name="ThreadGroup.end_time">1281467259000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <JDBCDataSource guiclass="TestBeanGUI" testclass="JDBCDataSource" testname="Configuración de la Conexión JDBC" enabled="true">
+          <stringProp name="dataSource"></stringProp>
+          <stringProp name="poolMax">100</stringProp>
+          <stringProp name="timeout">1500</stringProp>
+          <stringProp name="trimInterval">60000</stringProp>
+          <boolProp name="autocommit">false</boolProp>
+          <boolProp name="keepAlive">true</boolProp>
+          <stringProp name="connectionAge">5000</stringProp>
+          <stringProp name="checkQuery">Select 1</stringProp>
+          <stringProp name="dbUrl">jdbc:oracle:thin:@192.168.37.34:1526:axisd</stringProp>
+          <stringProp name="driver">oracle.jdbc.driver.OracleDriver</stringProp>
+          <stringProp name="username">PORTA</stringProp>
+          <stringProp name="password">porta1245</stringProp>
+        </JDBCDataSource>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="crear compania" enabled="false">
+          <stringProp name="dataSource">oracle8182</stringProp>
+          <stringProp name="queryType">Callable Statement</stringProp>
+          <stringProp name="query">begin
+  -- Call the procedure
+  clk_api_pbx_integrador.clp_crea_compania(pv_contrato_cia =&gt; ?,
+                                           pv_nombre_compania =&gt; ?,
+                                           pv_nombre_contacto =&gt; ?,
+                                           pv_apellido_contacto =&gt; ?,
+                                           pv_numero_contacto =&gt; ?,
+                                           pv_email_contacto =&gt; ?,
+                                           pv_embla_reach =&gt; ?,
+                                           pv_main_number =&gt; ?,
+                                           pv_numero_virtual =&gt; ?,
+                                           pv_usuario =&gt; ?,
+                                           pv_tipo_servicio =&gt; ?,
+                                           pv_codigo_doc =&gt; ?,
+                                           pv_error =&gt; ?);
+end;</stringProp>
+          <stringProp name="queryArguments">26286279,cls,andres,silva,985675001,asilva@corlasosa.com,false,985823047,901,PORTAOAP,]NULL[,6.286778,]NULL[</stringProp>
+          <stringProp name="queryArgumentsTypes">INTEGER,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,OUT VARCHAR</stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="modificar compania" enabled="false">
+          <stringProp name="dataSource">oracle8182</stringProp>
+          <stringProp name="queryType">Callable Statement</stringProp>
+          <stringProp name="query">begin
+  -- Call the procedure
+  clk_api_pbx_integrador.clp_actualiza_compania(pv_contrato_cia =&gt; ?,
+                                                pv_nombre_compania =&gt; ?,
+                                                pv_nuevo_nombre_compania =&gt; ?,
+                                                pv_nombre_contacto =&gt; ?,
+                                                pv_apellido_contacto =&gt; ?,
+                                                pv_numero_contacto =&gt; ?,
+                                                pv_tipo_servicio =&gt; ?,
+                                                pv_old_main_number =&gt; ?,
+                                                pv_new_main_number =&gt; ?,
+                                                pv_old_numero_virtual =&gt; ?,
+                                                pv_new_numero_virtual =&gt; ?,
+                                                pv_email_contacto =&gt;?,
+                                                pv_embla_reach =&gt; ?,
+                                                pv_usuario =&gt; ?,
+                                                pv_codigo_doc =&gt; ?,
+                                                pv_error =&gt; ?);
+end;</stringProp>
+          <stringProp name="queryArguments">26286279,cls,corlasosa,andres,silva,985675001,]NULL[,985823047,985823047,901,111,asilva@corlasosa.com,false,PORTAOAP,6.286778,]NULL[</stringProp>
+          <stringProp name="queryArgumentsTypes">INTEGER,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,OUT VARCHAR</stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="eliminar compania" enabled="false">
+          <stringProp name="dataSource">oracle8182</stringProp>
+          <stringProp name="queryType">Callable Statement</stringProp>
+          <stringProp name="query">begin
+  -- Call the procedure
+  clk_api_pbx_integrador.clp_elimina_compania(pv_contrato_cia =&gt; :pv_contrato_cia,
+                                              pv_usuario =&gt; :pv_usuario,
+                                              pv_nombre_compania =&gt; :pv_nombre_compania,
+                                              pv_main_number =&gt; :pv_main_number,
+                                              pv_codigo_doc =&gt; :pv_codigo_doc,
+                                              pv_error =&gt; :pv_error);
+end;</stringProp>
+          <stringProp name="queryArguments">26286279,PORTAOAP,corlasosa,985823047,6.286778,]NULL[</stringProp>
+          <stringProp name="queryArgumentsTypes">INTEGER,VARCHAR,VARCHAR,VARCHAR,VARCHAR,OUT VARCHAR</stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="AXIS" enabled="true">
+          <stringProp name="dataSource"></stringProp>
+          <stringProp name="queryType">Callable Statement</stringProp>
+          <stringProp name="query">begin
+  -- Call the procedure
+  swk_api_pcrf.addpcrf(pv_idservicio =&gt; :pv_idservicio,
+                       pv_idpaquete =&gt; :pv_idpaquete,
+                       estado =&gt; :estado,
+                       retorno =&gt; :retorno);
+end;</stringProp>
+          <stringProp name="queryArguments">&apos;59482705&apos;,&apos;AUT-1711&apos;,&apos;A&apos;,&apos;&apos;</stringProp>
+          <stringProp name="queryArgumentsTypes">VARCHAR,VARCHAR,VARCHAR,CLOB</stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="modificar usuario" enabled="false">
+          <stringProp name="dataSource">oracle8182</stringProp>
+          <stringProp name="queryType">Callable Statement</stringProp>
+          <stringProp name="query">begin
+  -- Call the procedure
+  clk_api_pbx_integrador.clp_actualiza_usuario(pv_contrato_cia =&gt; :pv_contrato_cia,
+                                               pv_nombre_usuario =&gt; :pv_nombre_usuario,
+                                               pv_nuevo_nombre_usuario =&gt; :pv_nuevo_nombre_usuario,
+                                               pv_clave =&gt; :pv_clave,
+                                               pv_old_idservicio =&gt; :pv_old_idservicio,
+                                               pv_new_idservicio =&gt; :pv_new_idservicio,
+                                               pv_email =&gt; :pv_email,
+                                               pv_nombre_primario =&gt; :pv_nombre_primario,
+                                               pv_nombre_secundario =&gt; :pv_nombre_secundario,
+                                               pv_departamento =&gt; :pv_departamento,
+                                               pv_sms =&gt; :pv_sms,
+                                               pv_rol =&gt; :pv_rol,
+                                               pv_enable =&gt; :pv_enable,
+                                               pv_usuario =&gt; :pv_usuario,
+                                               pv_nombre_compania =&gt; :pv_nombre_compania,
+                                               pv_codigo_doc =&gt; :pv_codigo_doc,
+                                               pv_error =&gt; :pv_error);
+end;</stringProp>
+          <stringProp name="queryArguments">26286279,asilva,as,1234,988698223,988698223,asilva@corlasosa.com,andres,silva,]NULL[,N,PBX_ADM,A,PORTAOAP,corlasosa,6.286778,]NULL[</stringProp>
+          <stringProp name="queryArgumentsTypes">INTEGER,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,VARCHAR,OUT VARCHAR</stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="eliminar usuario" enabled="false">
+          <stringProp name="dataSource">oracle8182</stringProp>
+          <stringProp name="queryType">Callable Statement</stringProp>
+          <stringProp name="query">begin
+  -- Call the procedure
+  clk_api_pbx_integrador.clp_elimina_usuario(pv_contrato_cia =&gt; :pv_contrato_cia,
+                                             pv_nombre_compania =&gt; :pv_nombre_compania,
+                                             pv_nombre_usuario =&gt; :pv_nombre_usuario,
+                                             pv_usuario =&gt; :pv_usuario,
+                                             pv_codigo_doc =&gt; :pv_codigo_doc,
+                                             pv_error =&gt; :pv_error);
+end;</stringProp>
+          <stringProp name="queryArguments">26286279,corlasosa,as,PORTAOAP,6.286778,]NULL[</stringProp>
+          <stringProp name="queryArgumentsTypes">INTEGER,VARCHAR,VARCHAR,VARCHAR,VARCHAR,OUT VARCHAR</stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="clp_replica_multi_tmp" enabled="false">
+          <stringProp name="dataSource">oracle8182</stringProp>
+          <stringProp name="queryType">Callable Statement</stringProp>
+          <stringProp name="query">begin
+  -- Call the procedure
+  clk_pbx_despacha_cola.clp_replica_multi_tmp(pn_despachador =&gt; :pn_despachador,
+                                              pv_error =&gt; :pv_error);
+end;</stringProp>
+          <stringProp name="queryArguments">1,]NULL[</stringProp>
+          <stringProp name="queryArgumentsTypes">INTEGER,OUT VARCHAR</stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="reactiva_servicio" enabled="false">
+          <stringProp name="dataSource">oracle8182</stringProp>
+          <stringProp name="queryType">Callable Statement</stringProp>
+          <stringProp name="query">begin
+  -- Call the procedure
+  clk_api_pbx_integrador.clp_reactiva_servicio(pv_cadena_parametros =&gt; :pv_cadena_parametros,
+                                               pn_error =&gt; :pn_error,
+                                               pv_error =&gt; :pv_error);
+end;</stringProp>
+          <stringProp name="queryArguments">|91865542|PORTAOAP|,]NULL[</stringProp>
+          <stringProp name="queryArgumentsTypes">VARCHAR,OUT VARCHAR</stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
+        <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Gráfico de Resultados" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>true</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">C:\pbx3.log</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="Ver Resultados en Árbol" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>true</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">C:\pbx3.log</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Ver Árbol de Resultados" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>true</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+            </value>
+          </objProp>
+          <stringProp name="filename">C:\pbx3.log</stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
